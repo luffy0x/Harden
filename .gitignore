@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local Codex runtime state. Keep only sanitized harness sources in git.
+auth.json
+config.toml
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+logs/
+sessions/
+archived_sessions/
+shell_snapshots/
+browser/
+cache/
+tmp/
+.tmp/
+
+# Local credentials and environment.
+.env
+.env.*
+*.pem
+*.key
+*.kubeconfig

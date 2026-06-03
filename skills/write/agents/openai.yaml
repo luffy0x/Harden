@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Write"
+  short_description: "Rewrite prose to sound natural"
+  default_prompt: "Use $write to rewrite this draft naturally while preserving my intent."

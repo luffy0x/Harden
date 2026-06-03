@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Check"
+  short_description: "Review diffs, releases, and ship gates"
+  default_prompt: "Use $check to review the current diff or release surface with evidence before shipping."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Health"
+  short_description: "Audit agent config and AI maintainability"
+  default_prompt: "Use $health to audit this Codex or project agent setup for config drift and maintainability risk."

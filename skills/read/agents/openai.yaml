@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Read"
+  short_description: "Fetch and summarize URLs or PDFs"
+  default_prompt: "Use $read to fetch this URL or PDF and return the useful content in the format I asked for."

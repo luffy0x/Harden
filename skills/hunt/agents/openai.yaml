@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Hunt"
+  short_description: "Debug regressions and confirm root causes"
+  default_prompt: "Use $hunt to investigate this bug, confirm the root cause, and then fix it safely."

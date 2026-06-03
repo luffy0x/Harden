@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Cluster Setup"
+  short_description: "Configure Sealos test clusters on a dev Mac"
+  default_prompt: "Use $test-cluster-setup to configure a Sealos test cluster from a nip.io domain."

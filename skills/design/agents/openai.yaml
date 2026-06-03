@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Design"
+  short_description: "Design and polish production UI surfaces"
+  default_prompt: "Use $design to build or polish this UI with a clear visual direction and rendered verification."

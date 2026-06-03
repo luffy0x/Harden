@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Learn"
+  short_description: "Research unfamiliar domains into useful output"
+  default_prompt: "Use $learn to research this unfamiliar topic and synthesize the sources into a useful artifact."

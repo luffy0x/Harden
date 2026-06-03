@@ -1,0 +1,13 @@
+version = 1
+id = "agent-harness"
+kind = "cron"
+name = "每周 Agent Harness 复盘"
+prompt = "生成一份每周 Agent/Skill/Harness 复盘报告。时间范围固定为上周五 15:00 到本周五 15:00，按 Asia/Shanghai 理解时间边界。\n\n只读分析，不要自动创建、修改或删除任何 skill、agent harness、automation、AGENTS.md、memory 或 thread 内容。可以读取本地资料用于分析，包括 Codex 当前/近期 threads、thread summaries、memory、task summaries、已有 skills、automations、AGENTS.md 和 harness 配置。优先使用可用的 Codex thread/automation 工具读取结构化信息；如果工具不可用，再读取本地 ~/.codex 下的相关索引、摘要和配置。不要把大段对话原文写入报告，只记录必要的日期、thread/task 线索、文件路径、证据摘要、判断和建议。\n\n输出目录固定为 ~/.codex/WeeklyReview/<YYYY>/ 。如目录不存在则创建。正常输出两个文件：weekly-agent-review-YYYY-MM-DD.xlsx 和 weekly-agent-review-YYYY-MM-DD.md，其中 YYYY-MM-DD 使用本周五的日期。若 Excel 生成失败，仍需输出 Markdown 失败诊断文件 weekly-agent-review-YYYY-MM-DD-failed.md，说明失败原因、已成功读取/未能读取的数据源，以及后续修复建议。\n\nExcel 报表至少包含这些 sheet：\n1. Overview：本周范围、数据源覆盖情况、关键结论、建议数量、P0/P1/P2/P3 统计。\n2. Conversations：本周对话/任务清单，包含日期、thread/task 线索、目标、产出、复盘观察、是否可沉淀。\n3. Workflow Candidates：可沉淀流程候选，包含重复工作流、证据与日期、频率/置信度、推荐形态（skill/subagent/automation/extend existing/skip）、是否值得做。\n4. Skill Improvements：已有 skill 的具体扩展建议，包含 skill 路径、触发场景、缺口、建议修改、收益、风险。\n5. Harness Issues：AGENTS.md、规则、上下文、验证流程、工具使用边界中的问题，包含位置、现象、影响、建议修改。\n6. Action Items：可执行工程清单，包含优先级、动作、目标文件或资产、预期收益、预计成本、是否需要用户确认。\n\nMarkdown 报告要简洁但可执行，按以下结构输出：\n- 本周结论\n- 数据源覆盖与缺口\n- 最高优先级行动项\n- 建议创建/扩展的 skill、subagent、automation\n- 建议修改的 harness/AGENTS.md 规则\n- 主动跳过与需要更多证据的候选\n- 如果发现历史周报，则补充与上周的趋势对比；没有历史周报就说明本周是基线。\n\n优先级口径：P0 表示反复踩坑且影响执行质量，应该尽快改 harness/skill；P1 表示高频高价值流程，值得沉淀；P2 表示有价值但证据不足，继续观察；P3 表示低优先级观察项。报告里的建议要偏可执行工程清单：具体说明改哪个 skill、加哪条 harness 规则、建哪个 automation，但不要直接执行这些修改。\n\n完成后在自动化结果中简短告知报告路径、数据源覆盖情况、P0/P1 数量，以及是否有失败或缺口。"
+status = "ACTIVE"
+rrule = "FREQ=WEEKLY;BYDAY=FR;BYHOUR=15;BYMINUTE=0;BYSECOND=0"
+model = "gpt-5.5"
+reasoning_effort = "high"
+execution_environment = "local"
+cwds = ["~/Documents/Codex"]
+created_at = 1780459260293
+updated_at = 1780459260293

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Ship"
+  short_description: "Commit and push session changes safely"
+  default_prompt: "Use $git-ship to inspect the current diff, group my session changes, create clean Conventional Commits, and push safely after verification."

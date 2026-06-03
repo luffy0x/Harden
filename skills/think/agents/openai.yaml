@@ -1,0 +1,4 @@
+interface:
+  display_name: "Waza Think"
+  short_description: "Plan features and architecture before coding"
+  default_prompt: "Use $think to turn this rough idea into a decision-complete plan before implementation."
