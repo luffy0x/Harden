@@ -6,6 +6,10 @@
 
 {{ merge ~/.codex/rules/base.md }}
 
+## Engineering Workflow Rules
+
+{{ merge ~/.codex/rules/engineering.md }}
+
 ## Internship Transition Rules
 
 {{ merge ~/.codex/rules/internship.md }}

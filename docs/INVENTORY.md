@@ -6,9 +6,11 @@ Generated snapshot date: 2026-06-03.
 
 - `harness/AGENTS.md`: global Codex instruction entrypoint.
 - `harness/rules/base.md`: engineering communication, working style, testing, git, dependency, reliability, and documentation rules.
+- `harness/rules/engineering.md`: reusable engineering workflow rules for simplicity, feature work, harness coverage, and shipping safety.
 - `harness/rules/frontend.md`: frontend architecture, state/UI separation, styling, and token safety rules.
 - `harness/rules/internship.md`: internship-period database, deployment, image, and external-reference safety rules.
 - `harness/rules/security.md`: secret handling and sensitive-data safety rules.
+- `harness/ship/`: sample harness case for PR/branch image shipping workflows.
 
 ## Automations
 
@@ -30,6 +32,7 @@ Generated snapshot date: 2026-06-03.
 - `read`: URL and PDF reading/fetching workflow.
 - `rules`: shared writing/routing rules used by skills.
 - `screenshot-interaction`: screenshot-to-interaction and UI behavior inference.
+- `ship`: PR/branch image build, push, deploy, verification, and deployment rollback orchestration.
 - `test-cluster-setup`: Sealos test-cluster setup workflow with runtime-provided credentials.
 - `think`: decision-complete planning for features, architecture, and value judgments.
 - `workflow-packager`: identifies repeated agent workflows worth turning into skills, subagents, or automations.

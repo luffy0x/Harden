@@ -9,6 +9,7 @@ This repository is a portable, sanitized snapshot of the local Codex setup. It i
 - `skills/`: user-level Codex skills and their supporting agents, references, scripts, and assets.
 - `harness/AGENTS.md`: the global Codex instruction entrypoint.
 - `harness/rules/`: reusable rule modules merged by `harness/AGENTS.md`.
+- `harness/ship/`: sample harness case for validating shipping behavior.
 - `automations/`: Codex automation definitions that are safe to version.
 - `docs/`: inventory, security notes, and maintenance guidance.
 - `scripts/`: helper scripts for installing this harness into a local Codex home.

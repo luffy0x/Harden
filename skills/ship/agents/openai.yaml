@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harden Ship"
+  short_description: "Plan, build, deploy, and verify releases safely."
+  default_prompt: "Use $ship to plan, build, push, deploy, and verify this release safely."
