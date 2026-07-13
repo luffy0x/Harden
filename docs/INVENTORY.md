@@ -1,6 +1,6 @@
 # Inventory
 
-Generated snapshot date: 2026-06-03.
+Generated snapshot date: 2026-07-13.
 
 ## Harness
 
@@ -22,6 +22,7 @@ Generated snapshot date: 2026-06-03.
 - `codex-goal-builder`: turns rough long-running objectives into decision-complete Codex Goals.
 - `codex-runner-creator`: creates or repairs Codex local environment action files.
 - `design`: production-grade UI and screenshot-driven visual polish.
+- `frontend-design`: distinctive, intentional frontend visual direction, typography, and layout guidance.
 - `git-commit`: conventional commit workflow for session-scoped changes.
 - `git-ship`: conventional commit plus safe push workflow.
 - `health`: agent configuration, instruction drift, verifier, and maintainability health audit.

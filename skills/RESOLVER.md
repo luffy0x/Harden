@@ -16,6 +16,7 @@
 |------|------|
 | 新功能 / 架构决策 / "怎么设计" / "应该用什么方案" / "判断一下" / "有没有必要" / "值不值得" / 商业化/产品 pivot / 需要可执行计划或 handoff | `skills/think/SKILL.md` |
 | UI / 组件 / 页面 / 视觉界面 / 前端 / 截图里说"丑"、"不清晰"、"很怪" / 真实截图视觉 polish | `skills/design/SKILL.md` |
+| 新建或重塑前端界面 / 需要独特的审美方向、字体、配色、布局或标志性视觉元素 | `skills/frontend-design/SKILL.md` |
 
 ### Post-build（交付前）
 
