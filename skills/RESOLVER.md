@@ -22,6 +22,7 @@
 
 | 触发 | 技能 |
 |------|------|
+| 原型页面打磨 / 细节优化 / 体验优化 / 设计走查 / 设计评审 / 对标 Apple / 提升质感 / "还差点质感" / polish UI / design audit / fit and finish | `skills/ui-polish/SKILL.md` |
 | 实现完成 / 合并前 / "review 一下" / "看看这段代码" / release gate / 生成产物检查 / safety sink 审查 / `code-review` | `skills/check/SKILL.md` |
 | release / publish / push / release reaction / 发布 / 提交 / 关闭 issue / 发布前检查 / 发布表情 / registry/appcast/asset 检查 | `skills/check/SKILL.md` (Ship / Release Follow-through) |
 | review issue / review PR / triage / 批量处理 / "看看有没有 issue" / close issue | `skills/check/SKILL.md` (Triage Mode) |
@@ -56,7 +57,8 @@
 7. **长文产出 vs 润色**：从零到成稿 → `/learn`；已有稿子要改 → `/write`。
 8. **判断 vs 调试**："判断一下" + 报错/异常/不工作 → `/hunt`（诊断问题）；"判断一下" + 有没有必要/该不该保留/值不值得 → `/think` Evaluation Mode（价值判断）。
 9. **继续优化 vs 调试**："继续优化" / "优化代码" 不含报错或异常现象 → `/check`（代码质量改善）；有具体报错或回归 → `/hunt`。
-10. **兜底**：两个都模糊时读两个 SKILL.md 的 "Not for" 段，用排除法；还是模糊就问用户。
+10. **打磨细节 vs 新建设计**：页面方向已定、用户基本满意、要抠细节/走查/对标一流质感 → `/ui-polish`；从零建新页面或重塑视觉方向 → `/design` 或 `/frontend-design`。用户说"这个页面丑"且方向本身有问题 → `/design`；说"方向可以但细节糙" → `/ui-polish`。
+11. **兜底**：两个都模糊时读两个 SKILL.md 的 "Not for" 段，用排除法；还是模糊就问用户。
 
 ## Chaining（常见串联）
 
@@ -68,6 +70,7 @@
 - `/read` 取回多篇 URL → **用户说"/learn"** → `/learn` 综合成文；如果同一回合已经明确要求总结或分析，`/read` fetch 后直接满足该请求
 - `/learn` 出初稿 → **用户说"/write"** → `/write` 去 AI 味
 - `/hunt` 定位根因 → **用户说"修"** → 修完 → **用户说"/check"** → `/check` 确认没副作用
+- `/design` 或 `/frontend-design` 定方向 → **用户说"打磨一下 / 走查一遍"** → `/ui-polish` 出审计报告 → **用户批准** → 修复并验证
 - `/health` 发现 skill 配置问题 → **用户说"修"** → 修完 → **用户说"/health"** → 再跑一次 `/health`
 
 ## Latent vs Deterministic
