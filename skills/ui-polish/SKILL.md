@@ -35,7 +35,7 @@ Run this detection pass and write down what you found. Generic standards apply o
 
 ## Phase 1: Audit
 
-Start the dev server, open the page in a browser automation tool, and walk the full checklist in [references/checklist.md](references/checklist.md) at every detected breakpoint, in every theme. Read the checklist file before starting.
+Start the dev server, open the page in a browser automation tool, and walk the full checklist in [references/checklist.md](references/checklist.md) at every detected breakpoint, in every theme. Read the checklist file before starting. A Chinese translation is available at [references/checklist.zh-CN.md](references/checklist.zh-CN.md) — use it when the user works in Chinese.
 
 Coverage order: typography, spacing, color/contrast, interaction/a11y, motion, component states, responsive, fit & finish, consistency. Do not skip "boring" states: empty, loading, error, disabled, extreme content lengths.
 
