@@ -36,6 +36,7 @@ Generated snapshot date: 2026-07-13.
 - `ship`: PR/branch image build, push, deploy, verification, and deployment rollback orchestration.
 - `test-cluster-setup`: Sealos test-cluster setup workflow with runtime-provided credentials.
 - `think`: decision-complete planning for features, architecture, and value judgments.
+- `ui-polish`: Apple-grade detail audit and verified fix pass for prototype UI pages.
 - `workflow-packager`: identifies repeated agent workflows worth turning into skills, subagents, or automations.
 - `write`: Chinese/English prose rewrite and polish workflow.
 
